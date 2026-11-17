@@ -1,0 +1,69 @@
+site_name: Phone Bench
+site_description: Test a phone display, speakers, camera, touch and sensors in one web page
+site_url: https://ggrabarz.github.io/szopofon/
+repo_url: https://github.com/ggrabarz/szopofon
+repo_name: ggrabarz/szopofon
+edit_uri: ""
+
+theme:
+  name: material
+  language: en
+  logo: assets/icon.svg
+  favicon: assets/icon.svg
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
+    - content.code.copy
+    - content.tabs.link
+
+nav:
+  - Start: index.md
+  - Music: music.md
+  - 4K Video: video.md
+  - Photo: photo.md
+  - Screen: screen.md
+  - Touch: touch.md
+  - Sensors: sensors.md
+  - Benchmarks: benchmarks.md
+
+extra_css:
+  - assets/theme.css
+
+extra:
+  generator: false
+
+copyright: Photo and sensor data stay on the phone. Nothing is uploaded.
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: false
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
