@@ -31,43 +31,43 @@
 ## Radio
 
 <div class="mu-radio">
-  <div class="mu-row" data-url="https://ice1.somafm.com/groovesalad-256-mp3" data-name="Groove Salad">
-    <button class="mu-playbtn" type="button">Play</button>
-    <div class="mu-station">
-      <div class="mu-station-name">Groove Salad</div>
-      <div class="mu-station-genre">chill downtempo</div>
-    </div>
-    <span class="mu-state">stopped</span>
-  </div>
-  <div class="mu-row" data-url="https://ice1.somafm.com/u80s-256-mp3" data-name="Underground 80s">
-    <button class="mu-playbtn" type="button">Play</button>
-    <div class="mu-station">
-      <div class="mu-station-name">Underground 80s</div>
-      <div class="mu-station-genre">synthpop and new wave</div>
-    </div>
-    <span class="mu-state">stopped</span>
-  </div>
-  <div class="mu-row" data-url="https://ice1.somafm.com/defcon-256-mp3" data-name="DEF CON Radio">
-    <button class="mu-playbtn" type="button">Play</button>
-    <div class="mu-station">
-      <div class="mu-station-name">DEF CON Radio</div>
-      <div class="mu-station-genre">electronic, bass heavy</div>
-    </div>
-    <span class="mu-state">stopped</span>
-  </div>
-  <div class="mu-row" data-url="https://ice1.somafm.com/dronezone-256-mp3" data-name="Drone Zone">
-    <button class="mu-playbtn" type="button">Play</button>
-    <div class="mu-station">
-      <div class="mu-station-name">Drone Zone</div>
-      <div class="mu-station-genre">ambient, quiet detail</div>
-    </div>
-    <span class="mu-state">stopped</span>
-  </div>
   <div class="mu-row" data-url="https://stream.radioparadise.com/aac-320" data-name="Radio Paradise">
     <button class="mu-playbtn" type="button">Play</button>
     <div class="mu-station">
       <div class="mu-station-name">Radio Paradise</div>
       <div class="mu-station-genre">eclectic rock mix, 320 kbps AAC</div>
+    </div>
+    <span class="mu-state">stopped</span>
+  </div>
+  <div class="mu-row" data-url="https://stream.radioparadise.com/mp3-192" data-name="Radio Paradise Mellow">
+    <button class="mu-playbtn" type="button">Play</button>
+    <div class="mu-station">
+      <div class="mu-station-name">Radio Paradise Mellow</div>
+      <div class="mu-station-genre">softer mix, 192 kbps MP3</div>
+    </div>
+    <span class="mu-state">stopped</span>
+  </div>
+  <div class="mu-row" data-url="https://icecast.radiofrance.fr/fipelectro-midfi.mp3" data-name="FIP Electro">
+    <button class="mu-playbtn" type="button">Play</button>
+    <div class="mu-station">
+      <div class="mu-station-name">FIP Electro</div>
+      <div class="mu-station-genre">electronic, deep bass</div>
+    </div>
+    <span class="mu-state">stopped</span>
+  </div>
+  <div class="mu-row" data-url="https://icecast.radiofrance.fr/fiprock-midfi.mp3" data-name="FIP Rock">
+    <button class="mu-playbtn" type="button">Play</button>
+    <div class="mu-station">
+      <div class="mu-station-name">FIP Rock</div>
+      <div class="mu-station-genre">guitars, good for midrange detail</div>
+    </div>
+    <span class="mu-state">stopped</span>
+  </div>
+  <div class="mu-row" data-url="https://icecast.radiofrance.fr/francemusique-midfi.mp3" data-name="France Musique">
+    <button class="mu-playbtn" type="button">Play</button>
+    <div class="mu-station">
+      <div class="mu-station-name">France Musique</div>
+      <div class="mu-station-genre">classical, wide dynamic range</div>
     </div>
     <span class="mu-state">stopped</span>
   </div>
